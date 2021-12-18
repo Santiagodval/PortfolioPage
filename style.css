@@ -61,6 +61,7 @@ header{
 a{
     color: black;
     text-decoration: none; 
+    text-align: center;
 }
 
 li{
@@ -93,4 +94,18 @@ justify-content: center;
     margin: 2em auto 1em auto;
     padding-bottom: 1em;
     font-size: 4em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height: 50vh;
+    background: var(--blue);
+    
+}
+
+footer a{
+    vertical-align: top;
 }
