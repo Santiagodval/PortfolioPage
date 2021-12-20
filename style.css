@@ -10,6 +10,7 @@
 
 img{
     width: 100%;
+    border-radius: 1em 1em 0em 0em;
 }
 
 .project-tile{
@@ -18,6 +19,7 @@ img{
     border-radius: 1em;
     padding-left: 0;
     border: var(--red) 2px solid;
+    transition: border 250ms;
 }
 
 body{
@@ -108,7 +110,7 @@ footer{
     font-size: 2em;
     height: 50vh;
     background: var(--blue);
-    
+    margin-top: 2em;
 }
 
 footer a{
@@ -118,4 +120,8 @@ footer a{
 figure{
     margin: 0 0 10px 0;
     border-radius: 1em;
+}
+
+.project-tile:hover{
+    border: 2px var(--yellow) solid;
 }
