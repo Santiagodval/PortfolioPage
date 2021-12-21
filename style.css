@@ -55,15 +55,7 @@ h1{
    
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3.5em;
-    margin: 0;
-    background-color: var(--green);
-}
+
 
 a{
     color: black;
@@ -114,7 +106,8 @@ footer{
 }
 
 footer a{
-    vertical-align: top;
+    vertical-align: top; 
+    position: relative;
 }
 
 figure{
@@ -123,5 +116,31 @@ figure{
 }
 
 .project-tile:hover{
+   
     border: 2px var(--yellow) solid;
+}
+
+footer a:hover{
+    animation: ahoveranimation 500ms;
+    top: -10px;
+}
+
+@keyframes ahoveranimation {
+
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: -10px;
+    }
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5em;
+    margin: 0;
+    background-color: var(--green);
 }
