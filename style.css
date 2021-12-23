@@ -6,9 +6,10 @@
     --orange: #F4A261;
     --red: #E76F51;
     font-family: "Playfair Display";
+    scroll-behavior: smooth;
 }
 
-img{
+figure img{
     width: 100%;
     height: 305px;
     border-radius: 1em 1em 0em 0em;
